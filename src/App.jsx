@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import A from './A'
 import { createContext } from 'react'
+import Reducer from './Reducer'
 
 const Data=createContext();
 function App() {
@@ -13,7 +14,7 @@ function App() {
   return (
   
     <Data.Provider value={"Priyansh"}>
-       <A/>
+       <Reducer/>
     </Data.Provider>
    
     
